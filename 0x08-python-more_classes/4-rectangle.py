@@ -11,7 +11,7 @@ class Rectangle:
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
-            raise TyoeError
+            raise TypeError
         if value < 0:
             raise ValueError
         self.__width = value

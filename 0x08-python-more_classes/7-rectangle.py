@@ -15,6 +15,7 @@ def width(self):
 
 @width.setter
 def width(self, value):
-    if not isinstance(value,int):raise TypeError
+    if not isinstance(value,int):
+        raise TypeError
     if value < 0:
         raise ValueError

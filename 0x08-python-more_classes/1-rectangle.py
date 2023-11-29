@@ -24,6 +24,6 @@ class Rectangle
     def height(self, value):
         if not isinstance(value, int):
             raise TypeError
-        if value < 0
+        if value < 0:
             raise ValueError
         self.__height = value

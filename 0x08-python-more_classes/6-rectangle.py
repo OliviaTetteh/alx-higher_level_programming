@@ -3,7 +3,7 @@ class Rectangle:
 
     number of instances = 0
 
-    def ++init__(self, width=0, height=0):
+    def __init__(self, width=0, height=0):
         type(self).number_of_instances += 1
         self.width = width
         self.height = height
